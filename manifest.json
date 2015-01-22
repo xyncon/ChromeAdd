@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Dodos und Jones Penetration App",
+    "description": "POST details of the current page to a remote endpoint.",
+    "version": "0.2",
+    "content_scripts": [ {
+      "matches": ["*://*/*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "underscore.js", "content.js"]
+    }]
+}
